@@ -1,4 +1,4 @@
-# Budget Tracker
+# Budget Tracker (Progressive Web Application)
 
 ## Description
 
