@@ -1,4 +1,4 @@
-# Social Network with MongoDB
+# Budget Tracker
 
 ## Description
 
@@ -9,4 +9,5 @@ Budgeting app with offline functionality using a service worker and web manifest
 No idea why the app only lets me post two transactions.
 
 ## Deployed application
+
 
