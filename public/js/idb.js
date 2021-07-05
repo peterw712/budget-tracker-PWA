@@ -8,9 +8,9 @@ request.onupgradeneeded = function (event) {
     db.createObjectStore('new_budget', { autoIncrement: true });
     };
 
-request.onsuccess = function(event) {
+request.onsuccess = function (e) {
 // if db was created successfully with object store, save to global variable
-    db = event.target.result;
+    db = e.target.result;
      // if online, upload any pending records
     if (navigator.onLine) {
         uploadBudget();
